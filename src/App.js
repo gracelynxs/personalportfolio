@@ -17,7 +17,6 @@ import PortfiloTwo from "./Pages/Portfilo/PortfiloTwo";
 import Resume from "./Pages/Resume/Resume";
 import ResumeTwo from "./Pages/Resume/ResumeTwo";
 import NotFound from "./Share/NotFound";
-import Preview from "./Pages/Home/HomeTwo";
 
 function App() {
   useEffect(() => {
@@ -29,7 +28,7 @@ function App() {
       <ContextProvider>
         <HashRouter basename={process.env.PUBLIC_URL}>
           <Routes>
-            <Route path="/" element={<Preview />} />
+            <Route path="/" element={<HomeTwo />} />
           
             <Route path="/home" element={<HomeTwo />}>
               <Route index element={<AboutTwo />} />
