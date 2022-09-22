@@ -1,7 +1,7 @@
 {
   "name": "bostami",
   "version": "1.1.0",
-  "homepage": "https://gracelynxs.github.io/personalportfolio/",
+  "homepage": "https://gracelynxs.github.io/personalportfolio/#/homeTwo",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
