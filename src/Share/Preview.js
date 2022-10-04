@@ -1,10 +1,10 @@
 import React from "react";
 import logo from "../assets/images/logo/logo-preview.png";
-import homeonelight from "../assets/images/preview/homeonelight.png?raw=true";
-import homeonedark from "../assets/images/preview/homeonedark.png?raw=true";
-import hometwolight from "../assets/images/preview/hometwolight.png?raw=true";
-import hometwodark from "../assets/images/preview/hometwodark.png?raw=true";
-import previewimg from "../assets/images/preview/preview.png?raw=true";
+import homeonelight from "./personalportfolio/src/assets/images/preview/homeonelight.png";
+import homeonedark from "./personalportfolio/src/assets/images/preview/homeonedark.png";
+import hometwolight from "./personalportfolio/src/assets/images/preview/hometwolight.png";
+import hometwodark from "./personalportfolio/src/assets/images/preview/hometwodark.png;
+import previewimg from "./personalportfolio/src/assets/images/preview/preview.png";
 
 // ******************************************************
 import reactLogo from "../assets/images/preview/fatures/1.png";
