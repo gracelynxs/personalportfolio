@@ -221,37 +221,37 @@ const AllData = () => {
     {
       id: "01",
       name: "Home",
-      link: "/home/homePage",
+      link: "/homeTwo/about",
       icon: <AiOutlineHome />,
     },
     {
       id: "02",
       name: "About",
-      link: "/home/about",
+      link: "/homeTwo/about",
       icon: <FaRegUser />,
     },
     {
       id: "06",
       name: "Resume",
-      link: "/home/resume",
+      link: "/homeTwo/resume",
       icon: <CgNotes />,
     },
     {
       id: "03",
       name: "Works",
-      link: "/home/works",
+      link: "/homeTwo/works",
       icon: <FiCodesandbox />,
     },
     {
       id: "04",
       name: "Blogs",
-      link: "/home/blogs",
+      link: "/homeTwo/blogs",
       icon: <FaBlogger />,
     },
     {
       id: "05",
       name: "Contact",
-      link: "/home/contact",
+      link: "/homeTwo/contact",
       icon: <RiContactsBookLine />,
     },
   ];
