@@ -26,7 +26,7 @@ function App() {
   return (
     <>
       <ContextProvider>
-        <HashRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter basename={#process.env.PUBLIC_URL}>
           <Routes>
             <Route path="/" element={<HomeTwo />} />
           
