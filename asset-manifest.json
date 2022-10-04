@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.1fb6f9d4.css",
-    "main.js": "./static/js/main.a832e766.js",
+    "main.css": "./static/css/main.7a01ffe7.css",
+    "main.js": "./static/js/main.b535b3ad.js",
     "static/media/1.jpg": "./static/media/1.af48ded7e014473b0934.jpg",
     "static/media/bg.jpg": "./static/media/bg.a5ebb8fa7c05886138d3.jpg",
     "static/media/bg-dark.jpg": "./static/media/bg-dark.a5c00f5414551c5abe5b.jpg",
@@ -12,11 +12,7 @@
     "static/media/blog copy.jpg": "./static/media/blog copy.d835fb6d9091343e596a.jpg",
     "static/media/blog.jpg": "./static/media/blog.d835fb6d9091343e596a.jpg",
     "static/media/avatar.jpg": "./static/media/avatar.e068bbee859a34e0a5ea.jpg",
-    "static/media/hometwolight.png": "./static/media/hometwolight.05b2112aa2111293d420.png",
-    "static/media/homeonelight.png": "./static/media/homeonelight.dd0f6747ceb0b825bbb4.png",
-    "static/media/homeonedark.png": "./static/media/homeonedark.862249b714ce4db44ed5.png",
     "static/media/previewbg.png": "./static/media/previewbg.300f33b46a224efadb0a.png",
-    "static/media/hometwodark.png": "./static/media/hometwodark.021eee6411a934527f22.png",
     "static/media/2.jpg": "./static/media/2.f3b1ee31826f864d7e4d.jpg",
     "static/media/brand-2.png": "./static/media/brand-2.0f04b84907bde1b6f4ae.png",
     "static/media/icon-5.svg": "./static/media/icon-5.b7ce008f06241f1d51b48260af8b73f4.svg",
@@ -30,11 +26,11 @@
     "static/media/icon-1.svg": "./static/media/icon-1.71b741a6ab73765534e80db0a934febd.svg",
     "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
     "index.html": "./index.html",
-    "main.1fb6f9d4.css.map": "./static/css/main.1fb6f9d4.css.map",
-    "main.a832e766.js.map": "./static/js/main.a832e766.js.map"
+    "main.7a01ffe7.css.map": "./static/css/main.7a01ffe7.css.map",
+    "main.b535b3ad.js.map": "./static/js/main.b535b3ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fb6f9d4.css",
-    "static/js/main.a832e766.js"
+    "static/css/main.7a01ffe7.css",
+    "static/js/main.b535b3ad.js"
   ]
 }
