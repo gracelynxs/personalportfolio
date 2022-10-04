@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "homepage": "https://gracelynxs.github.io/personalportfolio/",
 
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@testing-library/jest-dom": "^5.16.4",
