@@ -1,7 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ContextProvider from "./Context/ContextProvider";
 import About from "./Pages/About/About";
 import AboutTwo from "./Pages/About/AboutTwo";
@@ -26,7 +26,7 @@ function App() {
   return (
     <>
       <ContextProvider>
-        <HashRouter basename={process.env.PUBLIC_URL}>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Routes>
             <Route path="/" element={<HomeTwo />} />
           
@@ -40,7 +40,7 @@ function App() {
             </Route>
             <Route path="*" element={<NotFound />} />
           </Routes>
-        </HashRouter>
+        </BrowserRouter>
       </ContextProvider>
     </>
   );
