@@ -37,7 +37,7 @@ const Preview = () => {
   const previewArray = [
     {
       img: homeonelight,
-      title: "Box Layout (Light)",
+      title: "TESTING",
       link: "/homeTwo",
       id: "1",
     },
