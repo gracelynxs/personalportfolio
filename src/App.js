@@ -10,13 +10,14 @@ import BlogTwo from "./Pages/Blog/BlogTwo";
 import Contact from "./Pages/Contact/Contact";
 import ContactTwo from "./Pages/Contact/ContactTwo";
 import Home from "./Pages/Home/Home";
-import HomePage from "./Pages/Home/HomeTwo";
+import HomePage from "./Pages/Home/HomePage";
 import HomeTwo from "./Pages/Home/HomeTwo";
 import Portfilo from "./Pages/Portfilo/Portfilo";
 import PortfiloTwo from "./Pages/Portfilo/PortfiloTwo";
 import Resume from "./Pages/Resume/Resume";
 import ResumeTwo from "./Pages/Resume/ResumeTwo";
 import NotFound from "./Share/NotFound";
+import Preview from "./Share/Preview";
 
 function App() {
   useEffect(() => {
@@ -28,9 +29,17 @@ function App() {
       <ContextProvider>
         <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Routes>
-            <Route path="/" element={<HomeTwo />} />
-          
-            <Route path="/home" element={<HomeTwo />}>
+            <Route path="/" element={<Preview />} />
+            <Route path="/home" element={<Home />}>
+              <Route index element={<HomePage />} />
+              <Route path="homePage" element={<HomePage />} />
+              <Route path="resume" element={<Resume />} />
+              <Route path="about" element={<About />} />
+              <Route path="contact" element={<Contact />} />
+              <Route path="blogs" element={<Blog />} />
+              <Route path="works" element={<Portfilo />} />
+            </Route>
+            <Route path="/homeTwo" element={<HomeTwo />}>
               <Route index element={<AboutTwo />} />
               <Route path="about" element={<AboutTwo />} />
               <Route path="resume" element={<ResumeTwo />} />
