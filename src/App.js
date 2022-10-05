@@ -9,7 +9,7 @@ import Blog from "./Pages/Blog/Blog";
 import BlogTwo from "./Pages/Blog/BlogTwo";
 import Contact from "./Pages/Contact/Contact";
 import ContactTwo from "./Pages/Contact/ContactTwo";
-import Home from "./Pages/Home/Home";
+import Home from "./Pages/Home/HomeTwo";
 import HomePage from "./Pages/Home/HomePage";
 import HomeTwo from "./Pages/Home/HomeTwo";
 import Portfilo from "./Pages/Portfilo/Portfilo";
@@ -29,9 +29,9 @@ function App() {
       <ContextProvider>
         <HashRouter basename={process.env.PUBLIC_URL}>
           <Routes>
-            <Route path="/" element={<HomeTwo />} />
-            <Route path="/home" element={<HomeTwo />}>
-              <Route index element={<HomeTwo />} />
+            <Route exact path="/" element={HomeTwo} />
+              <Route path="/home" element={<HomeTwo />}>
+              <Route index element={<AboutTwo />} />
               <Route path="homePage" element={<HomeTwo />} />
               <Route path="resume" element={<ResumeTwo />} />
               <Route path="about" element={<AboutTwo />} />
